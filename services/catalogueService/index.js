@@ -5,10 +5,12 @@ const Q = require('q');
 const CATALOGUE = {
   _standard: [
     {
-      name: 'Sky News'
+      name: 'Sky News',
+      global: true
     },
     {
-      name: 'Sky Sports News'
+      name: 'Sky Sports News',
+      global: true
     }
   ],
   LONDON: [
